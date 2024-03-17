@@ -4,3 +4,4 @@ secound goto github.com and create an account by signup.create
  1. in vs code left side-->sign in --> choose github and 
  it will open browser and github login screen,enter username,password
  --> login--> autorize-->it will redirect to vs codr
+
