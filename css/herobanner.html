@@ -5,37 +5,154 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HERO BANNER SECTION</title>
 </head>
-<body style="background:linear-gradient(to left,orange,rgb(211, 155, 34));"></body> >
-<h1> SHOPPING </h1>
-<i> <h3>made easy!!</i></h3>
-<h2> GROCERIES ..ELECTRONICS..AND ENTERTAINMENT.. <br>BUY FROM OUR WEBSITE</h2>
 <style>
-.hero{
-    padding-top:10px;
-    padding-right: 10px;
-    padding-left:10px;
-    padding-bottom:0px;
-    max-width:626px;
-    margin: 50px;
-    margin-left:10px;
-    background: url('https://cdn.create.vista.com/api/media/small/196884578/stock-photo-smiling-stylish-asian-woman-shopping-bags-yellow-background')no-repeat;
-    background-position: fixed;
-    background-size:cover;
-    height:197px;
-    width:500px;
-    background-position:fixed;
-    border-width: 15px;
-    border-style:solid;
+ body {
+        background-color:darkgrey;
+        box-sizing: border-box;
+        height: 10vh;
+        margin: 20px;
+        color: darkgrey;
+}   
+.head{
+    display: flex;
+    flex-direction: center;
 }
-.hero:hover{
-    color:darkred;
+.main{
+    display:flex;
+    padding-bottom: 1px;
+    border:10px;
+    border-radius:10% ;
+    font-size: medium;
+
 }
+.photo{
+    display:flex;
+    
+}
+
+
+.sub{
+    padding-top: 10px;
+    display: flex;
+    background-color:rgb(10,30,50);
+
+}  
+ h1{
+    display:flex;
+    flex-direction:row;
+ }
+  .h11{
+    color: black;
+  }
+
+
+ .main-card {
+    display: flex;
+    flex-direction:row;
+    height: 100%;
+    width:100%;
+    gap: 10%;
+}
+.card1{
+       justify-content:row;
+       height:150px;
+       width:150px;
+       background-color:white ; 
+       color: black;
+       border: 1px solid,black;
+}
+.card1:hover{
+    background-color:greenyellow;
+}
+.card2:hover{
+    background-color:skyblue;
+}
+.card3:hover{
+    background-color:darkolivegreen;
+}
+
+.card2{
+       justify-content:row;
+       height:150px;
+       width:150px;
+       background-color: white; 
+       color: black;}
+.card3{
+       justify-content: row;
+       height:150px;
+       width:150px;
+       background-color: white; 
+       color: black;}
+.card4{
+       justify-content: row;
+       height:250px;
+       width:150px;
+       background-color:; 
+       color: grey;
+       padding-right:10px;
+
+    }
+       
+
 </style>
-<div class="hero">
- <H3>FLAT 50% DISCOUNT<BR>
-</H3>
-    SHOP NOW
+<body>
+    <div class="head">     
+        
+    </div>
+
+
+    </div>
+    <div class="main">
+        <div class="sub">
+            <h1> melodies that <br>
+                 help you stay focus
+            </h1>
+            <p>Music is composed and performed for many purposes, ranging from aesthetic pleasure, religious or ceremonial
+                 purposes, or as an entertainment product for the marketplace. When music was only available through sheet music scores, 
+                 such as during the Classical and Romantic eras, music lovers would buy the sheet music of their favourite pieces and songs
+                 so that they could perform them at home on the piano. With the advent of the phonograph, records of popular songs, rather 
+                 than sheet music became the dominant way that music lovers would enjoy their favourite songs. With the advent of home tape 
+                 recorders in the 1980s and digital music in the 1990s, music lovers could make tapes or playlists of favourite songs and take 
+                 them with them on a portable cassette player or MP3 player. Some music lovers create mix tapes of favourite songs, which serve 
+                 as a "self-portrait, a gesture of friendship, prescription for an ideal party... [and] an environment consisting solely of what 
+                 is most ardently loved".<br>
+                 <input type="button" value="login" placeholder="login"><br>
+                 <input type="text" name="mail" id="mail" placeholder="your email address">
+
+                </p></div>
+                <div class="photo">
+                    <img src="https://assets-global.website-files.com/616e938268c8f0a92cb2b540/616e938268c8f02b2db2c3ca_add%20music%20to%20video%20pink%20headphones.jpg" height="400" width="400"/>
+                </div>
+    </div>
+    <div class="h11"><h2>Featured melody </h2></div>
+    <div class="main-card">
+    <div class="card1">moment of silence
+        <img src="https://www.shutterstock.com/image-photo/mountains-during-sunset-beautiful-natural-600nw-407021107.jpg"  height="150" width="150"/>
+        
+    </div>
+    <div class="card2">fantastic wave
+        <img src="https://cdn.outsideonline.com/wp-content/uploads/2023/06/hiker-waterfall-nature_s.jpg" height="150" width="150"/>
+    </div>
+    <div class="card3">The sound of wave
+        <img src="https://www.un-redd.org/sites/default/files/2021-04/bc52e1_4a89e260bf804e6cb9c86bfca811052d~mv2.jpg" height="150" width="150"/>
+    </div>
+    
+    <div class="card4"><h2> weely popular</h2>
+    <ul>
+     <li>   
+        Harmony in our life
+        1985,098 played
+     </li>
+     <li>
+        moment of silence
+        1229,385 played
+     </li>
+     <li> 
+        The sound of nature
+        827,921 played
+     </li>
+    </ul>
+     </div>
 </div>
-<button>shop Now</button>
+
 </body>
-</html>
