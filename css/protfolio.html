@@ -9,18 +9,23 @@
     :root{  
         --primary:green;
         --secoundary:red;
+        scroll-behavior: smooth;
+	scrollbar-color: var(--primary);
+	scrollbar-highlight-color: blue;
+
     }
     body {
             box-sizing: border-box;
             font-family: Raleway, sans-serif;
             padding: 0px;
-            margin: 0px;
+            margin: 10px;
         }
   header{
      background-color:black;
      display: flex;
      justify-content: space-between;
-     padding: 10px;
+     width:100vw;
+     position: fixed;
  }
  header ul {
             display: flex;
@@ -28,7 +33,16 @@
         }
  #banner{
     display: flex;
+    gap:2%;
+    padding-top: 15%;
+    
  }
+ .logo {
+  display:flex;
+  gap:30px;
+  justify-content: space-between;
+ }
+ 
 
 main p{
             line-height: 2.5;
@@ -59,10 +73,12 @@ button{
 }
 .left p{
     font-size:21px ;
+
 }
 #about{
+    display:flex;
     text-align: center;
-    row-gap:10%;
+
 }
 h1{
             font-size: 46px;
@@ -98,35 +114,33 @@ h1{
             display: grid;
             grid-template-columns: repeat(3,auto);
             justify-content: center;
+            gap:20%;
             
-            gap: 20%;
             
         }
         #Projects{
             box-shadow:20px;
         }
         
-       .footer {
-           text-align: center;
+           
+           .footer{
+            text-align: center;
            display: flex;
            flex-direction: column;
             text-transform: uppercase;
            background-color: #000;
+           box-shadow: 20px white;
            margin-top:10% ;
-           padding: 20px;
-           color: white;
-}
-#contact{
-    display: flex;
-    flex-direction: column;
-
+           padding: 50px;
 }
 </style>
 <body>
     <header>
       <div class="logo">
-       <img src="https://png.pngtree.com/png-clipart/20230207/original/pngtree-beauty-logo-design-png-image_8947095.png" height="70" width="80"/>
-       <h1>profile</h1>
+        <div class="left header">
+       <img src="https://png.pngtree.com/png-clipart/20230207/original/pngtree-beauty-logo-design-png-image_8947095.png" height="200" width="200"/></div>
+       <div class="righthead">
+       <h1>MY PROJECTS!!</h1>
       </div>
       <div class="menu">
         <ul>
@@ -135,7 +149,7 @@ h1{
             <li><a href="#Projects">Projects</a></li>
             <li><a href="#Contact">Contact</a></li>
         </ul>
-      </div>
+      </div></div>
     </header>
     <main>
         <section id="banner">
@@ -149,12 +163,17 @@ h1{
         <img src="https://media.cakeresume.com/image/upload/v1645165398/kjenlie323egbf0s74zf.jpg" height="500" width="950"/>
 
      </div></section>
+     <h1>ABOUT</h1>
      <section id="about">
-        <h1>ABOUT</h1>
+
         <div class="leftabout">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta qui corrupti assumenda est labore perspiciatis modi hic quis officia voluptatem. Maxime repellendus soluta, corrupti repudiandae facilis tempore ipsa saepe nulla cumque assumenda itaque voluptates laborum veniam nisi officiis rerum consectetur excepturi, impedit, alias illum iure deserunt? Hic, temporibus! Autem sunt possimus, quas fugiat veritatis illum consequatur accusamus maxime in cupiditate vitae dignissimos eveniet ab asperiores eos perspiciatis cum veniam soluta, alias quae accusantium? Officiis ut neque exercitationem at eveniet doloremque tempora illum reiciendis vel molestiae, aperiam saepe aliquid, sint in laboriosam nobis modi, mollitia animi debitis praesentium ipsum voluptates autem.</p></div>
+        <p>Informational Text Projects That Build Thinking and Creativityproject, including its purpose, scope, objectives, and any key details or requirements you'd like to share. With this information, I'll be better able to understand your project and
+
+          offer relevant assistance or insights.</p>
+           <p>A project is a set of tasks that must be completed within a defined timeline to accomplish a specific set of goals. These tasks are completed by a group of people known as the project team, which is led by a project manager, who oversees the planning, scheduling, tracking and successful completion of projects </p></div>
+
         <div class="rightabout">
-            <img src="">
+            <img src="https://ourboox-media-prod.s3.eu-west-1.amazonaws.com/wp-content/uploads/2021/06/01212320/lol.jpg" height="400" width="500"/>
         </div>
     </section>
     <h1>PROJECTS</h1>
@@ -192,11 +211,11 @@ h1{
         <h2>projects5</h2>
       </div>
  </div> </section>
-    </main>
-    <footer>
-        <section class="footer">
+     <section class="footer">
             <div id="Contact">
               <h1>CONTACT</h1>  
+            </i></a>&nbsp;</div>
+            </i></a href="https://icons8.com/icon/xuvGCOXi8Wyg/linkedin">linked in</div>
               <h3><a href="tinnurupoojareddy@gmail.com">mail.com</a></h3>
                <h3><a href="https://hashnode.com/@pooja26">hashnode.com</a></h3>
               <h3> <a href="https://www.linkedin.com/in/pooja-reddy-8a279a282?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ">linkedin.com</a></h3>
@@ -204,8 +223,10 @@ h1{
 
             </div>
         </section>
+</main>
+<footer>
 
-    </footer>
+</footer>
     
 </body>
 </html>
